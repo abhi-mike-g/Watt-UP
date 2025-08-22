@@ -26,7 +26,7 @@
 - **Team members (Names)** - *Abhidutta Mukund Giri*, *Prathamesh Aggarwal*, *Varanasi Naga Akhil*, *Prakhar Agrawal* 
 - **Demo Video Link** - *(Upload the Demo video on Youtube as a public or unlisted video and share the link. Google Drive uploads or any other uploads are not allowed.)*
 
-- **Project Description**
+### **Project Description**
 - An agentic system that intelligently optimizes battery usage for a target application, operating fully on-device, with no reliance on cloud computation. Adaptive, modular, and context-aware, ensuring the target application continues to function effectively while maximizing battery life.
 
 ### Project Artefacts
