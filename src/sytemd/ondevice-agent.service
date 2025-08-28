@@ -1,0 +1,13 @@
+[Unit]
+Description=On-Device Battery Optimization Agent (Watt-UP)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/ondevice-agent/src/agent/main_daemon.py
+Restart=on-failure
+User=root
+AmbientCapabilities=CAP_NET_ADMIN CAP_SYS_ADMIN
+
+[Install]
+WantedBy=multi-user.target
