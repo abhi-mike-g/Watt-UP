@@ -1,0 +1,28 @@
+version: 1
+global:
+  critical_battery_pct: 12
+  low_battery_pct: 28
+  safety_temp_c: 75
+  default_mode: auto
+  explain_level: concise
+
+system_profiles:
+  ultra_save:
+    cpu_max_khz: 800000
+    brightness_pct: 10
+    wifi_powersave: true
+    quota_pct: 40
+  balanced:
+    cpu_max_khz: 1400000
+    brightness_pct: 60
+    wifi_powersave: true
+    quota_pct: 80
+
+app_policies:
+  example.background.service:
+    priority: background
+    auto_hibernate: true
+    user_locked: false
+
+user_prefs:
+  auto_apply: true
