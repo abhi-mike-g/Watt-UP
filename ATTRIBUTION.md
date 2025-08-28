@@ -7,4 +7,4 @@ This project uses the following open-source libraries:
 - numpy — BSD, https://numpy.org/
 - pandas — BSD, https://pandas.pydata.org/
 
-All custom source code in [src/](https://github.com/abhi-mike-g/Watt-UP/src) was developed by the Watt-UP team for this project.
+All custom source code in [src/]([https://github.com/abhi-mike-g/Watt-UP/src](https://github.com/abhi-mike-g/Watt-UP/tree/main/src)) was developed by the Watt-UP team for this project.
