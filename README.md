@@ -10,8 +10,6 @@
 - Varanasi Naga Akhil
 - Prakhar Agrawal
 
-**Demo Video Link:** (PLACEHOLDER — upload to YouTube and paste link here)
-
 ## Project Description
 An agentic system that intelligently optimizes battery usage for a target application, operating fully on-device, with no reliance on cloud computation. Adaptive, modular, and context-aware, ensuring the target application continues to function effectively while maximizing battery life.
 
