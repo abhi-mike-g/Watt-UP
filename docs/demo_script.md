@@ -8,4 +8,4 @@
 6. Show RL CSV being populated (logs/rl_data.csv).
 7. Stop workload and show battery runtime estimate improvement.
 
-Narration tips: explain that all decisions are on-device, the agent respects user locks, and logs are auditable.
+All decisions are on-device, the agent respects user locks, and logs are auditable.
