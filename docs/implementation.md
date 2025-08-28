@@ -1,17 +1,17 @@
 # Implementation Details
 
-Source layout (src/):
-- src/agent/telemetry.py
-- src/agent/actions.py
-- src/agent/policy.py
-- src/agent/policy_rl.py
-- src/agent/audit.py
-- src/agent/main_daemon.py
-- src/ui/flask_ui.py
-- src/scripts/train_q.py
-- src/installer/install.sh
-- src/systemd/ondevice-agent.service
-- src/android_sdk/*
+Source layout ([src/](https://github.com/abhi-mike-g/Watt-UP/tree/main/src)):
+- [src/agent/telemetry.py](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/agent/telemetry.py)
+- [src/agent/actions.py](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/agent/actions.py)
+- [src/agent/policy.py](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/agent/policy.py)
+- [src/agent/policy_rl.py](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/agent/policy_rl.py)
+- [src/agent/audit.py](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/agent/audit.py)
+- [src/agent/main_daemon.py](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/agent/main_daemon.py)
+- [src/ui/flask_ui.py](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/ui/flask_ui.py)
+- [src/scripts/train_q.py](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/scripts/train_q.py)
+- [src/installer/install.sh](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/installer/install.sh)
+- [src/systemd/ondevice-agent.service](https://github.com/abhi-mike-g/Watt-UP/blob/main/src/sytemd/ondevice-agent.service)
+- [src/android_sdk/](https://github.com/abhi-mike-g/Watt-UP/tree/main/src/android_sdk)
 
 Notes:
 - The system is designed for Linux SBCs; sysfs paths and commands may vary. Adjust `/sys/devices/system/cpu` or backlight paths as needed.
