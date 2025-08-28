@@ -21,23 +21,41 @@
 
 # Samsung EnnovateX 2025 AI Challenge Submission
 
-- **Problem Statement** - *On-device Agentic System for Intelligent Battery Optimization*
-- **Team name** - *Watt-UP*
-- **Team members (Names)** - *Abhidutta Mukund Giri*, *Prathamesh Aggarwal*, *Varanasi Naga Akhil*, *Prakhar Agrawal* 
-- **Demo Video Link** - *(Upload the Demo video on Youtube as a public or unlisted video and share the link. Google Drive uploads or any other uploads are not allowed.)*
+**Problem Statement:** On-device Agentic System for Intelligent Battery Optimization
 
-### **Project Description**
-- An agentic system that intelligently optimizes battery usage for a target application, operating fully on-device, with no reliance on cloud computation. Adaptive, modular, and context-aware, ensuring the target application continues to function effectively while maximizing battery life.
+**Team Name:** Watt-UP
 
-### Project Artefacts
+**Team Members:**
+- Abhidutta Mukund Giri
+- Prathamesh Aggarwal
+- Varanasi Naga Akhil
+- Prakhar Agrawal
 
-- **Technical Documentation** - [Docs](docs) *(All technical details must be written in markdown files inside the docs folder in the repo)*
-- **Source Code** - [Source](src) *(All source code must be added to the src folder in the repo. The code must be capable of being successfully installed/executed and must run consistently on the intended platforms.)*
-- **Models Used** - *(Hugging Face links to all models used in the project. You are permitted to use open weight models.)*
-- **Models Published** - *(In case you have developed a model as a part of your solution, kindly upload it on Hugging Face under appropriate open source license and add the link here.)*
-- **Datasets Used** - *(Links to all datasets used in the project. You are permitted to use publicly available datasets under licenses like Creative Commons, Open Data Commons, or equivalent.)*
-- **Datasets Published** - *(Links to all datasets created for the project and published on Hugging Face. You are allowed to publish any synthetic or proprietary dataset used in their project, but will be responsible for any legal compliance and permission for the same. The dataset can be published under Creative Commons, Open Data Commons, or equivalent license.)*
+**Demo Video Link:** (PLACEHOLDER — upload to YouTube and paste link here)
 
-### Attribution 
+## Project Description
+An agentic system that intelligently optimizes battery usage for a target application, operating fully on-device, with no reliance on cloud computation. Adaptive, modular, and context-aware, ensuring the target application continues to function effectively while maximizing battery life.
 
-In case this project is built on top of an existing open source project, please provide the original project link here. Also, mention what new features were developed. Failing to attribute the source projects may lead to disqualification during the time of evaluation.
+## Project Artefacts (Included)
+- `docs/` - Technical documentation in markdown (architecture, implementation, evaluation, security, android integration, demo script)
+- `src/` - Source code (agent, ui, scripts, android_sdk)
+- `models/` - Placeholder for trained models (instructions to generate/upload)
+- `datasets/` - Placeholder for generated RL dataset and instructions
+- `installer/` - Installer script to install to `/opt/ondevice-agent/src/` and systemd unit
+- `systemd/` - systemd unit file
+- `README.md` - Quickstart
+
+## Models Used
+- None external. The MVP uses a tabular Q-learning model saved as `models/q_table.pkl` after training.
+
+## Models Published
+- (If you want us to publish the trained Q-table to Hugging Face, say so and provide account details or we will provide upload instructions.)
+
+## Datasets Used
+- No external datasets used. The agent generates `logs/rl_data.csv` during runtime which can be published.
+
+## Datasets Published
+- (Placeholder) You may publish `logs/rl_data.csv` to Hugging Face datasets following `datasets/README.md` instructions.
+
+## Attribution
+Third-party libraries used: Flask, psutil, PyYAML, numpy, pandas. See `ATTRIBUTION.md` for details.
