@@ -25,11 +25,8 @@ An agentic system that intelligently optimizes battery usage for a target applic
 ## Models Used
 - None external. The MVP uses a tabular Q-learning model saved as `models/q_table.pkl` after training.
 
-## Models Published
-- (If you want us to publish the trained Q-table to Hugging Face, say so and provide account details or we will provide upload instructions.)
-
 ## Datasets Used
 - No external datasets used. The agent generates `logs/rl_data.csv` during runtime which can be published.
 
 ## Attribution
-Third-party libraries used: Flask, psutil, PyYAML, numpy, pandas. See `ATTRIBUTION.md` for details.
+Third-party libraries used: Flask, psutil, PyYAML, numpy, pandas. See [ATTRIBUTION.md](https://github.com/abhi-mike-g/Watt-UP/blob/main/ATTRIBUTION.md) for details.
